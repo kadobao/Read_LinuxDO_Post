@@ -4,12 +4,11 @@
 │   ├── __init__.py
 │   ├── find_navigate_links.py
 │   └── read_post.py
-├── test.py
+└── test.py
 ```
 
-
-====================== 阅读LinuxDO帖子\test.py ======================
-## 阅读LinuxDO帖子\test.py
+====================== Read_LinuxDO_Post\test.py ======================
+## Read_LinuxDO_Post\test.py
 ```py
 # test.py
 
@@ -86,8 +85,8 @@ while True:
         print(f'文档的高度: {document_height}, 视口的高度: {viewport_height}, 当前滚动条的位置: {scroll_position}, 未到达底部, 差值: {difference}')
 ```
 
-====================== 阅读LinuxDO帖子\Linux_Script\find_navigate_links.py ======================
-## 阅读LinuxDO帖子\Linux_Script\find_navigate_links.py
+====================== Read_LinuxDO_Post\Linux_Script\find_navigate_links.py ======================
+## Read_LinuxDO_Post\Linux_Script\find_navigate_links.py
 ```py
 # Linux_Script/find_navigate_links.py
 
@@ -98,8 +97,8 @@ def find_navigate_links(page):
     return len(links), links
 ```
 
-====================== 阅读LinuxDO帖子\Linux_Script\read_post.py ======================
-## 阅读LinuxDO帖子\Linux_Script\read_post.py
+====================== Read_LinuxDO_Post\Linux_Script\read_post.py ======================
+## Read_LinuxDO_Post\Linux_Script\read_post.py
 ```py
 # Linux_Script/read_post.py
 
@@ -161,8 +160,8 @@ def read_post(page, link, index, post_count, numerator_list):
     return post_count, numerator_list  # 返回更新后的 post_count 和 numerator_list
 ```
 
-====================== 阅读LinuxDO帖子\Linux_Script\__init__.py ======================
-## 阅读LinuxDO帖子\Linux_Script\__init__.py
+====================== Read_LinuxDO_Post\Linux_Script\__init__.py ======================
+## Read_LinuxDO_Post\Linux_Script\__init__.py
 ```py
 # Linux_Script/__init__.py
 
